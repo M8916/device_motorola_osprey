@@ -93,7 +93,7 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
+  <!--  <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
        <Video codec="h264"
               bitRate="17000000"
               width="1920"
@@ -104,7 +104,7 @@
               bitRate="128000"
               sampleRate="48000"
               channels="2" />
-    </EncoderProfile>
+    </EncoderProfile> -->
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -176,19 +176,19 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
+    <!-- <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
       <Video codec="h264"
          bitRate="17000000"
          width="1920"
          height="1080"
-         frameRate="30" />
+         frameRate="30" /> -->
 
-      <!-- audio setting is ignored -->
+      <!-- audio setting is ignored
       <Audio codec="aac"
          bitRate="128000"
          sampleRate="48000"
          channels="2" />
-    </EncoderProfile>
+    </EncoderProfile>-->
 
 
         <ImageEncoding quality="95" />
@@ -265,7 +265,7 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
+    <!--<EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
       <Video codec="h264"
               bitRate="17000000"
               width="1920"
@@ -276,7 +276,7 @@
               bitRate="128000"
               sampleRate="48000"
               channels="2" />
-    </EncoderProfile>
+    </EncoderProfile> -->
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
       <Video codec="h264"
@@ -348,19 +348,19 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
+    <!-- <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="17000000"
              width="1920"
              height="1080"
-             frameRate="30" />
+             frameRate="30" /> -->
 
-      <!-- audio setting is ignored -->
+      <!-- audio setting is ignored
       <Audio codec="aac"
              bitRate="128000"
              sampleRate="48000"
              channels="2" />
-    </EncoderProfile>
+    </EncoderProfile> -->
 
 
         <ImageEncoding quality="95" />
@@ -438,3 +438,4 @@
     <VideoDecoderCap name="wmv" enabled="false"/>
     <AudioDecoderCap name="wma" enabled="false"/>
 </MediaSettings>
+
