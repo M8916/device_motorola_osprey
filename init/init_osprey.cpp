@@ -61,10 +61,8 @@ void vendor_load_properties()
     bool MSIM;
     char gb[PROP_VALUE_MAX];
     char customerid[PROP_VALUE_MAX];
-    char description[PROP_VALUE_MAX];
     char device[PROP_VALUE_MAX];
     char ds[PROP_VALUE_MAX];
-    char fingerprint[PROP_VALUE_MAX];
     char tv[PROP_VALUE_MAX];
 
     std::string platform = GetProperty("ro.board.platform","");
@@ -174,12 +172,7 @@ void vendor_load_properties()
         sprintf(ds, "_ds");
     }
 
-    sprintf(description, "osprey_retus-user 6.0 MPI24.65-25.1 1 release-keys");
-    sprintf(fingerprint, "motorola/osprey_retus/osprey_umts:6.0/MPI24.65-25.1/1:user/release-keys");
-
     property_override("ro.product.device", device);
     property_override("ro.build.product", device);
-    property_override("ro.build.description", description);
-    property_override("ro.build.fingerprint", fingerprint);
     property_set("ro.mot.build.customerid", customerid);
 }
