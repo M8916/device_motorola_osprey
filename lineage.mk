@@ -26,3 +26,5 @@ PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := osprey
+
+BUILD_FINGERPRINT := motorola/osprey_retasia_ds_2gb/osprey_ud2:6.0.1/MPI24.107-55/33:user/release-keys
